@@ -1,6 +1,6 @@
 import "./style.css";
-import {home} from "./home.js";
+import { homeText } from "./home.js";
 alert("serving...");
 
 const homepageContent = document.querySelector("#content");
-homepageContent.textContent = home;
+homepageContent.textContent = homeText;

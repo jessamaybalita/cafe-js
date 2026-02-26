@@ -1,3 +1,61 @@
-body {
-    background-color: rebeccapurple;
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jura:wght@300..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: #2D2D2D;
+    color: #F2F2F2;
+    font-family: "Jura", sans-serif;
+}
+
+/* NAVIGATION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+    
+}
+
+header a {
+    font-family: "Jaro", sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+
+nav button {
+    border: none;
+    background-color: transparent;
+    font-family: "Jura", sans-serif;
+    color: #F2F2F2;
+}
+
+header a span {
+    color: #0DCAF0;
+}
+
+/* nav {
+    margin-left: auto;
+} */
+
+
+
+/* #logo {
+    flex: 1;
+} */
+
+
+

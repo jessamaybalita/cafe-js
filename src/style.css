@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 8rem;
     font-size: 2rem;
     
 }
@@ -43,19 +43,79 @@ nav button {
     color: #F2F2F2;
 }
 
-header a span {
+header a span, h1 {
     color: #0DCAF0;
 }
 
-/* nav {
-    margin-left: auto;
-} */
+/* HOME PAGE */
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 100vw;
+    height: 80vh;
+    padding: 0 8rem;
+    overflow: hidden;
+}
 
 
+#content .hero-text {
+    margin-top: 16vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
 
-/* #logo {
-    flex: 1;
-} */
+.slogan h1 {
+    font-family: "Jaro", sans-serif;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+}
+
+.slogan p {
+    font-size: 1.5rem;
+}
+
+.hero-text button {
+    width: 12rem;
+    height: 8vh;
+    background-color: #0DCAF0;
+    border: none;
+    border-radius: .5rem;
+    font-family: "Jaro", sans-serif;
+    color: #F2F2F2;
+    font-size: x-large;
+    -webkit-text-stroke: 1px #2D2D2D;
+    
+}
+
+#content .hero-img {
+    width: 50%;
+    
+}
+
+
+.hero-img img {
+    width: 80%;
+    float: right;
+    margin-right: -4rem;
+}
+
+.hero-footer-vector {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hero-footer-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 
 

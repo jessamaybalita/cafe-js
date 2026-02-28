@@ -59,3 +59,6 @@ const heroFooterText = document.createElement("p");
 heroFooterText.classList.add("hero-footer-text");
 heroFooterText.innerText = "Copyright © 2026 Jessa May Balita. All rights reserved.";
 heroFooterVector.append(heroFooterText);
+
+
+

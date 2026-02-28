@@ -4,7 +4,6 @@ import contactPage from "./contact.js";
 import menuPage from "./menu.js";
 import heroFooterImageSrc from "./assets/vactors/wave_vector.svg";
 
-alert("serving...");
 
 // NAVBAR VARIABLES
 const homeBtn = document.querySelector("#homepageBtn");
